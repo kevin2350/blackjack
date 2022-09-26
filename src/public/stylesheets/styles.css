@@ -1,0 +1,178 @@
+.remove {
+    display: none;
+}
+
+body {
+    background-image: url("/../img/background.jpg");
+}
+
+.start {
+    text-align: center;
+    background-color: white;
+    width: 70vh;
+    margin: 0 auto;
+    font-size: 3vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    margin-top: 20vh;
+    box-shadow: 0 8px 16px 2px rgba(0, 0, 0, .7);
+    border-radius: 10px;
+}
+
+#startValues {
+    font-size: 3vh;
+}
+
+.playBtn {
+    font-size: 3vh;
+}
+
+.game {
+    margin: 0;
+}
+  
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 3vh;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 14vh;
+    height: 17vh;
+    background-color: white;
+    padding-top: 4vh;
+    font-size: 200%;
+    box-shadow: 0 8px 20px 8px rgba(0, 0, 0, .8);
+    border-radius: 10px;
+    margin-top: 3vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+
+.hiddenCard {
+    text-align: lef;
+    width: 14vh;
+    height: 17vh;
+    background-color: white;
+    padding-top: 4vh;
+    box-shadow: 0 8px 20px 8px rgba(0, 0, 0, .8);
+    border-radius: 10px;
+    background-color: #e5e5f7;
+    background: repeating-linear-gradient(-45deg, blue, blue 5px, white 5px, white 15px );
+    margin-top: 3vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    font-size: 0;
+}
+
+.total {
+    text-align: center;
+    width: 41vh;
+    height: 3vh;
+    background-color: white;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-size: 150%;
+    box-shadow: 0 8px 15px 2px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    margin-top: 8vh;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+}
+
+.playerTotal, .computerTotal {
+    margin: 0 auto;
+}
+
+.hit, .stand {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 10vh;
+    height: 4vh;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    margin-top: 5vh;
+    background-color: grey;
+    font-size: 150%;
+    align-items: center;
+    justify-content: center;
+}
+
+.playerWin {
+    text-align: center;
+    width: 25vh;
+    height: 3vh;
+    background-color: lightgreen;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-size: 150%;
+    box-shadow: 0 8px 15px 2px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    margin-top: 5vh;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.computerWin {
+    text-align: center;
+    width: 25vh;
+    height: 3vh;
+    background-color: lightcoral;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-size: 150%;
+    box-shadow: 0 8px 15px 2px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    margin-top: 5vh;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.draw {
+    text-align: center;
+    width: 25vh;
+    height: 3vh;
+    background-color: lightskyblue;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-size: 150%;
+    box-shadow: 0 8px 15px 2px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    margin-top: 5vh;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.msg {
+    margin: 0 auto;
+}
+
+.restart {
+    text-align: center;
+    width: 15vh;
+    height: 3vh;
+    background-color: grey;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-size: 150%;
+    box-shadow: 0 8px 15px 2px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    margin-top: 2vh;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    border-radius: 5px;
+}
